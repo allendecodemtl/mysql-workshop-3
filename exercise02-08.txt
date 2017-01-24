@@ -1,0 +1,4 @@
+SELECT * FROM Entry t1, Phone t2 
+WHERE t1.id = t2.entryId 
+AND t1.birthday BETWEEN '1950-10-01' AND '1960-10-01' 
+AND t2.subtype = 'landline';

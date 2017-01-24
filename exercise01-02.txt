@@ -1,0 +1,6 @@
+SELECT * FROM Entry WHERE subtype = 'phone' AND contentLineOne like '(3%';
+
+SELECT * FROM Entry WHERE type = 'home' AND  subtype = 'phone' AND contentLineOne NOT LIKE ('%5%');
+
+SELECT * FROM Entry WHERE type = 'work' AND  subtype = 'phone' AND contentLineOne like ('1-%');
+

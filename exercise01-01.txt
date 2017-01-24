@@ -1,0 +1,10 @@
+SELECT COUNT(id), accountId 
+FROM AddressBook 
+GROUP BY accountId
+ORDER BY count(id) DESC;
+
+
+SELECT COUNT(id), addressBookId
+FROM Entry
+GROUP BY addressBookId
+ORDER BY COUNT(id) DESC;

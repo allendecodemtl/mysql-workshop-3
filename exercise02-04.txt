@@ -1,0 +1,1 @@
+select * from AddressBook t1, Entry t2 where t1.id = t2.addressBookId AND t1.name = "Pharetra Ut Limited"        
