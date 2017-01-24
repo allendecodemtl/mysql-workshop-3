@@ -1,1 +1,2 @@
-select DISTINCT SUBSTRING(content FROM LOCATE('@', content)) from ElectronicMail 
+SELECT DISTINCT SUBSTRING(content FROM LOCATE('@', content)) 
+FROM ElectronicMail 

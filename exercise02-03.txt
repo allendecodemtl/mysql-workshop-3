@@ -1,3 +1,10 @@
-select country, count(*) from Address group by country order by count(*) desc;
+SELECT country, count(*) 
+FROM Address 
+GROUP BY country 
+ORDER BY count(*) desc;
 
-select lower(country), count(*) from Address group by country order by count(*) desc;
+
+SELECT LOWER(country), count(*) 
+FROM Address 
+GROUP BY country
+ORDER BY count(*) DESC;

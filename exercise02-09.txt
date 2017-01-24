@@ -1,1 +1,3 @@
-SELECT city FROM Address WHERE country in ('Canada','Austria','Isle of Man','Ireland','Japan');
+SELECT city 
+FROM Address 
+WHERE country in ('Canada','Austria','Isle of Man','Ireland','Japan');

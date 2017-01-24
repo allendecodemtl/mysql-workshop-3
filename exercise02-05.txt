@@ -1,1 +1,4 @@
-select * from Entry t1, ElectronicMail t2 WHERE t1.id = t2.entryID AND t1.addressBookId = 100;
+SELECT * 
+FROM Entry t1, ElectronicMail t2 
+WHERE t1.id = t2.entryID 
+AND t1.addressBookId = 100;

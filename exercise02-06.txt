@@ -1,1 +1,5 @@
-select * from Entry t1, Phone t2 WHERE t1.id = t2.entryId AND t1.firstName = 'Charlotte' AND t1.lastName = 'Jenkins';
+SELECT * 
+FROM Entry t1, Phone t2 
+WHERE t1.id = t2.entryId 
+AND t1.firstName = 'Charlotte' 
+AND t1.lastName = 'Jenkins';
